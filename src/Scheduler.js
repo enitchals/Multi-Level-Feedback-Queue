@@ -29,7 +29,9 @@ class Scheduler {
     // If yes, then break out of the infinite loop
     // Otherwise, perform another loop iteration
     run() {
-
+        while((this.runningQueues[0].length!==0) || (this.runningQueues[1].length!==0) || (this.runningQueues[2].length!==0)) {
+            let 
+        }
     }
 
     // Checks that all queues have no processes 
